@@ -1,0 +1,86 @@
+* {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(white), to(darkgrey));
+  background: linear-gradient(white, darkgrey);
+}
+
+html main, body main {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html main .parent, body main .parent {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html main .buttons, body main .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1em;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+input {
+  border: 5px solid transparent;
+  font-size: 1.3em;
+  border-radius: 1em;
+  padding: .5em 1em;
+  background-origin: border-box;
+  -webkit-box-shadow: 1px 1000px 1px #fff inset;
+          box-shadow: 1px 1000px 1px #fff inset;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+input:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#decrease {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0.25)), to(rgba(255, 0, 0, 0.5)));
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(rgba(255, 0, 0, 0.25), rgba(255, 0, 0, 0.5));
+}
+
+#reset {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5));
+}
+
+#increase {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0))), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 255, 0, 0.25)), to(rgba(0, 255, 0, 0.5)));
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(rgba(0, 255, 0, 0.25), rgba(0, 255, 0, 0.5));
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 5em;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
